@@ -1,12 +1,16 @@
-.navigation {
+.navigation > ul {
   list-style: none;
 }
 
-ul.navigation > li {
+.navigation > ul > li {
   float: left;
 }
 
-ul.navigation > li > a {
+.navigation > ul > li > a {
   padding: 10px;
   cursor: pointer;
+}
+
+.mobile_nav {
+  
 }

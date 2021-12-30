@@ -2,3 +2,10 @@
   padding-left: 60px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 600px) {
+  .logo {
+    font-size: 1.3rem;
+    padding-left: 1rem;
+  }
+}
