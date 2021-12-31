@@ -1,7 +1,8 @@
-import { Logo } from './Logo';
-import { Navigation } from './Navigation'
-import { AuthButton } from './AuthButton';
-import s from '../styles/Layout.module.css';
+
+import { Logo } from '../Logo/Logo';
+import { Navigation } from '../Navigation/Navigation'
+import { AuthButton } from '../AuthButton';
+import s from './Layout.module.scss';
 
 interface IProps {
   children: React.ReactNode;

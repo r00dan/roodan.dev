@@ -1,13 +1,13 @@
 import { NextPage } from "next";
 import { Developing } from "../../components/Developing/Developing";
 
-const Blog: NextPage = () => {
+const Works: NextPage = () => {
   return (
     <>
-      <h3>Blog</h3>
+      <h3>Works</h3>
       <Developing />
     </>
   )
 }
 
-export default Blog;
+export default Works;
