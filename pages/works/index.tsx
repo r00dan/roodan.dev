@@ -1,6 +1,7 @@
+import { NextPage } from "next";
 import { Developing } from "../../components/Developing/Developing";
 
-export default function Works() {
+const Works: NextPage = () => {
   return (
     <>
       <h3>Works</h3>
@@ -8,3 +9,5 @@ export default function Works() {
     </>
   )
 }
+
+export default Works;

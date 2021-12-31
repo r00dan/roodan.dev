@@ -6,7 +6,7 @@ export default function Post() {
   const { id } = router.query;
   return (
     <div>
-      <h3>Post #{id}</h3>
+      <h3>Title</h3>
       <Developing />
     </div>
   )
