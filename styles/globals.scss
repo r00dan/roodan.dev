@@ -1,0 +1,62 @@
+@import './variables';
+
+@font-face {
+  font-family: "FiraSansThin";
+  src: url("../fonts/FiraSans-Thin.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "FiraSansLight";
+  src: url("../fonts/FiraSans-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "FiraSansRegular";
+  src: url("../fonts/FiraSans-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "FiraSansMedium";
+  src: url("../fonts/FiraSans-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "FiraSansBold";
+  src: url("../fonts/FiraSans-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "FiraSansLight", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  width: 100%;
+  height: 100%;
+  background-color: $dark-bg;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  color: $dark-color;
+}
+
+* + .dark-themed {
+  color: #eee;
+}
