@@ -1,9 +1,9 @@
 import { Developing } from "../../components/Developing/Developing";
 
-export default function Blog() {
+export default function Works() {
   return (
     <>
-      <h3>Blog</h3>
+      <h3>Works</h3>
       <Developing />
     </>
   )
