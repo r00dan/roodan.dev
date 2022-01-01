@@ -1,0 +1,26 @@
+@import '../../styles/variables';
+
+.button {
+  border: none;
+  outline: none;
+  padding: .4rem 1rem;
+  border-radius: .2rem;
+  cursor: pointer;
+  font-family: $fontRegular;
+}
+
+.borderless {
+  border: none;
+}
+
+.disabled {}
+
+.dark {
+  background-color: $light-bg;
+  color: $light-color;
+}
+
+.light {
+  background-color: $dark-bg-primary;
+  color: $dark-color;
+}

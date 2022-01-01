@@ -6,22 +6,21 @@
   &__item {
     float: left;
     margin: 0 .5rem;
-    padding: .5rem 0rem;
-    border-left: none; 
-    border-right: none; 
-    border-top: none;
-    border-bottom: 2px solid;
-    border-color: transparent;
-    border-image: linear-gradient(to right, transparent 0%, transparent 50%, transparent 100%) 1;
-
-    &:hover {
-      border-image: linear-gradient(to right, $gradient1 0%, $gradient2 50%, $gradient3 100%) 1;
-      transition-duration: .4s;
-    }
+    padding: 0 .3rem;
 
     & > span {
-      padding: 10px;
       cursor: pointer;
+      border-left: none; 
+      border-right: none; 
+      border-top: none;
+      border-bottom: 2px solid;
+      border-color: transparent;
+      border-image: linear-gradient(to right, transparent 0%, transparent 50%, transparent 100%) 1;
+
+      &:hover {
+        border-image: linear-gradient(to right, $gradient1 0%, $gradient2 50%, $gradient3 100%) 1;
+        transition-duration: .4s;
+      }
     }
   }
 }

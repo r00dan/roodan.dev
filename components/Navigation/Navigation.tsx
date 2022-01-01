@@ -18,7 +18,6 @@ export function Navigation() {
         <Link href="https://github.com/r00dan">
           <span>Gihub</span>
         </Link>
-        {/* <a href="https://github.com/r00dan" target="_blank" rel="noreferrer">Gihub</a> */}
       </li>
     </ul>
   )

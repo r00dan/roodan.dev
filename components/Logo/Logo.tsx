@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState, useEffect } from 'react';
 
-import avatar from '../../public/avatar.jpg';
+import avatar from '../../public/images/avatar.jpg';
 import s from './Logo.module.scss';
 
 const MAX_DEGREES: number = 360;
@@ -23,6 +23,7 @@ export function Logo() {
     }
   }, [degrees]);
   return (
+    // eslint-disable-next-line @next/next/link-passhref
     <Link href="/">
       <div className={s.logo}>
         <div
