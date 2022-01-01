@@ -41,8 +41,8 @@ body {
   margin: 0;
   font-family: "FiraSansLight", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   background-color: $dark-bg-primary;
 }
 
@@ -59,4 +59,14 @@ a {
 
 * + .dark-themed {
   color: #eee;
+}
+
+.error-404 {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.66rem;
+  font-family: $fontThin;
 }
