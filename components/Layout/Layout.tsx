@@ -1,7 +1,6 @@
-
+import { GithubAuth } from '../GithubAuth/GithubAuth';
 import { Logo } from '../Logo/Logo';
 import { Navigation } from '../Navigation/Navigation'
-import { AuthButton } from '../AuthButton';
 import s from './Layout.module.scss';
 
 interface IProps {
@@ -13,8 +12,10 @@ export function Layout({ children }: IProps) {
     <div className={s.layout}>
       <div className={s.wrapper}>
         <Logo />
-        <Navigation />
-        <AuthButton />
+        <div className={s.navigation__wrapper}>
+          <Navigation />
+          <GithubAuth />
+        </div>
       </div>
       <main>
         {children}
