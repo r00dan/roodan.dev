@@ -1,5 +1,5 @@
 import { Logo } from '../Logo/Logo';
-import { Navigation } from '../Navigation/Navigation'
+import { Navigation } from '../Navigation'
 import s from './Layout.module.scss';
 
 interface IProps {

@@ -12,10 +12,11 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
+        <h3>Здарова)))</h3>
         <Developing />
       </main>
     </div>
   )
 }
 
-export default Home
+export default Home;
